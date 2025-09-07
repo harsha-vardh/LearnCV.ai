@@ -31,7 +31,7 @@ st.set_page_config(page_title="VisionLab Toolkit", layout="wide")
 st.markdown("<h1 style='text-align:center; color:#4CAF50;'>✨ VisionLab: Interactive Image Processing Toolkit ✨</h1>", unsafe_allow_html=True)
 
 # File Upload Section
-uploaded_file = st.file_uploader("📂 Upload an Image", type=["jpg", "jpeg", "png", "bmp"], label_visibility="collapsed")
+uploaded_file = st.file_uploader("📂 Upload an Imagee", type=["jpg", "jpeg", "png", "bmp"], label_visibility="collapsed")
 
 if uploaded_file:
     image = load_image(uploaded_file)
